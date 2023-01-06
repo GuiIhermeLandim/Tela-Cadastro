@@ -16,7 +16,7 @@ Nesse projeto, voltei meus estudos em desenvolver uma Tela de Login e Cadastro p
 
 <details>
   <summary><b>Design</b></summary>
-    Após a estruturação, finalizei a Calculadora, adicionando Cores e estilizando Textos e Bordas.
+    Após a estruturação, finalizei a página, adicionando Cores e estilizando Textos e Bordas.
 </details>
 
 ## 🔨 Funcionalidades do projeto
