@@ -1,6 +1,6 @@
 ## Tela de Login e Cadastro
 
-Nesse projeto, com base na Aula ofertada pelo professor "Matheus Battisti" do Youtube, desenvolvi uma Tela de Login e Cadastro.
+Nesse projeto, voltei meus estudos em desenvolver uma Tela de Login e Cadastro para Web, utilizando conceitos de posicionamento e verificação de erros, aprendidos por mim.
 
 ## Etapas de desenvolvimento do Projeto
 
