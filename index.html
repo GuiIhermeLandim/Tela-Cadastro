@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    
+    <div id="login-container">
+
+        <h1>Login</h1>
+        <form action="" id="login-form">
+
+            <label for="email">E-mail</label>
+            <input type="email" name="email" id="emailLogin" placeholder="Digite seu e-mail" autocomplete="off">
+            <p class="hide" id="emailLogSpan"><span> E-mail inválido </span></p>
+
+            <label for="password">Senha</label>
+            <input type="password" name="password" id="passwordLogin" placeholder="Digite a sua senha">
+            <p class="hide" id="passwordLogSpan"><span> Senha Inválida </span></p>
+
+            <a href="#" id="forgot-pass">Esqueceu a senha?</a> 
+
+            <input type="submit" value="Login" id="login">
+        </form>
+
+        <div id="low-container">
+            <p>Ainda não tem uma conta?</p>
+            <a href="#" id="registerLink">Registrar</a>
+        </div>
+
+    </div>
+
+    <div id="register-container" class="hide">
+
+        <h1>Cadastre-se</h1>
+        <form action="" id="register-form">
+
+            <label for="email">E-mail</label>
+            <input type="email" name="email" placeholder="Digite seu e-mail" id="email">
+            <p class="hide" id="emailSpan"><span> Formato de e-mail inválido </span></p>
+
+            <label for="name">Nome</label>
+            <input type="text" name="name" placeholder="Digite seu nome" id="name">
+            <p class="hide" id="nameSpan"><span> Nome inválido </span></p>
+
+            <label for="lastname">Sobrenome</label>
+            <input type="text" name="lastname" placeholder="Digite seu sobrenome" id="lastname">
+            <p class="hide" id="lastnameSpan"><span> Sobrenome inválido </span></p>
+
+            <label for="password">Senha</label>
+            <input type="password" name="password" placeholder="Digite sua senha" id="password">
+            <p class="hide" id="passwordSpan"><span> Senha Inválida </span></p>
+
+            <label for="confirmpassword">Confirmação de Senha</label>
+            <input type="password" name="confirmpassword" placeholder="Digite sua senha novamente" id="confirmpassword">
+            <p class="hide" id="confpassSpan"><span> Confirmação de Senha Inválida </span></p>
+            
+            <div id="check-area">
+
+                <input type="checkbox" name="check" id="checkbox">
+                <p id="use-terms"> Eu li e aceito os <a href="#">termos de uso</a></p>
+
+            </div>
+            <p class="hide" id="checkSpan"><span> Aceite os termos de uso </span></p> 
+
+            <input type="submit" value="Registrar" id="register">
+        </form>
+
+    </div>
+
+    <script src="js/script.js"></script>
+
+</body>
+</html>
